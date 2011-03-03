@@ -3,7 +3,7 @@ using namespace std;
 
 /*
  *
- * Criação do mundo segundo ataqlibert, em suas fases de roedeira
+ * Criação do mundo segundo ataqlibert (quando tinha 16 anos), em suas fases de roedeira (quando levou um fora)
  *
  * */
 
@@ -15,7 +15,7 @@ int main()
   /* Do VACUO, surgiu a energia */
   char energia = ~VACUO;
 
-  /* E da desernigação surgiu a particula */
+  /* E da desenergização surgiu a particula */
   char particula = energia - energia - energia;
 
   /* Que por sua vez se uniu à outra partícula */
@@ -30,7 +30,7 @@ int main()
   /* Em seguida veio o espaço */
   char espaco = multiparticula << (multiparticula + multiparticula);
 
-  /* E os todos outros elementos... */
+  /* E todos outros elementos... */
   char H = (espaco << particula) | (espaco >> multiparticula);
   char o = ~(H << particula);
   char d = (o & mal) | (particula << multiparticula);
